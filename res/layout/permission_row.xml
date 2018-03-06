@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rating_top_background" >
+
+    <TextView
+        android:id="@+id/textPermission"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imagePermission"
+        android:text="CheckBox"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagePermission"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/l1" />
+
+    <TextView
+        android:id="@+id/textPermissionDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textPermission"
+        android:layout_alignRight="@+id/imagePermission"
+        android:layout_below="@+id/textPermission"
+        android:text="TextView"
+        android:visibility="visible" />
+
+</RelativeLayout>
